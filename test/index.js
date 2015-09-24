@@ -2,8 +2,9 @@ var tape = require("tape"),
     isAlphabetic = require("..");
 
 
-var numbers = "0123456789".split(""),
-    chars = "abcdefghijklmnopqrstuvwxyz".split(""),
+var alphabet = "abcdefghijklmnopqrstuvwxyz",
+    chars = (alphabet + alphabet.toUpperCase()).split(""),
+    numbers = "0123456789".split(""),
     punctuation = "`~!@#$%^&*()_-+={}[]|\\:;\"'<,>.?/".split(""),
     spaces = [' ', '\n', '\t', '\u00A0', '\u2028', '\u2029', '\f', '\r', '\v'];
 
