@@ -20,10 +20,10 @@ function testChars(assert, chars, result, name) {
 }
 
 
-tape("isAlphabetic(ch: Character) should return true if character is whitespace", function(assert) {
+tape("isAlphabetic(ch: Character) should return true if character is alphabetic", function(assert) {
 
-    testChars(assert, numbers, false, "should be false for number");
-    testChars(assert, chars, true, "should be true for alpha");
+    testChars(assert, numbers, false, "should be false for numeric");
+    testChars(assert, chars, true, "should be true for alphabetic");
     testChars(assert, punctuation, false, "should be false for punctuation");
     testChars(assert, spaces, false, "should be false for white space");
 
