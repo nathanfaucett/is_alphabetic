@@ -1,4 +1,4 @@
 isAlphabetic
 =======
 
-is alphabetic for the browser and node.js
+checks if character is alphabetic
